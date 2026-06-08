@@ -1,0 +1,352 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.main {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+}
+
+
+.left {
+    width: 30%;
+}
+
+/* everything about me */
+.about-me {
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+/* picture */
+.picture {
+    position: relative;
+    width: 340px;
+    height: auto;
+    border: 1px solid black;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    /* مهم */
+    padding-top: 20px;
+
+}
+
+
+.picture img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+
+}
+
+.picture h3 {
+    position: absolute;
+    top: 260px;
+    left: 20px;
+    color: white;
+    margin: 0;
+    margin-left: 10px;
+
+}
+
+/* icons for info */
+
+.personal-info {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px 15px;
+    gap: 10px;
+    box-sizing: border-box;
+    border-bottom: 1px solid #ccc;
+}
+
+.info {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    width: 100%;
+    position: relative;
+}
+
+.info a {
+    text-decoration: none;
+}
+
+
+.info h4,
+.info a {
+    margin: 0;
+    font-size: 14px;
+    word-break: break-word;
+}
+
+.info img {
+    width: 20px;
+    height: 20px
+}
+
+/* skills */
+
+.skills {
+    width: 100%;
+    border-bottom: 1px solid #ccc;
+}
+
+
+.skill-part {
+    display: flex;
+    align-items: center;
+
+}
+
+.skill-part img {
+    width: 40px;
+    height: 40px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.skill-part h2 {
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+.skill {
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+
+.progress-bar {
+    width: 90%;
+    height: 25px;
+    background-color: #ddd;
+    border-radius: 20px;
+    margin-left: 10px;
+
+
+}
+
+.progress {
+    height: 100%;
+    background-color: rgb(87, 165, 255);
+    border-radius: 20px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: white;
+    font-weight: bold;
+}
+
+.skill h4 {
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.teaching {
+    width: 70%;
+}
+
+.programming {
+    width: 30%;
+}
+
+.painting {
+    width: 40%;
+}
+
+/* link of my social media */
+
+
+.media {
+    width: 50%;
+}
+
+.social-media {
+    margin-top: 20px;
+}
+
+.social-media p {
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #333;
+}
+
+.social {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.social img {
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-bottom: 30px;
+}
+
+.social img:hover {
+    transform: scale(1.2);
+}
+
+/* langues */
+
+.languages {
+    width: 100%;
+    border-bottom: 1px solid #ccc;
+}
+
+
+.language {
+    display: flex;
+    align-items: center;
+}
+
+.language img {
+    width: 40px;
+    height: 40px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.language h2 {
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+.language-part {
+    width: 100%;
+}
+
+
+.lang {
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+
+.language-bar {
+    width: 90%;
+    height: 25px;
+    background-color: #ddd;
+    border-radius: 20px;
+    margin-left: 10px;
+}
+
+
+.lang h4 {
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+
+
+.persain {
+    width: 100%;
+}
+
+.english {
+    width: 70%;
+}
+
+.korean {
+    width: 40%;
+}
+
+.russian {
+    width: 10%;
+}
+
+
+
+/* ------------------------ */
+
+/* everything about my work */
+
+.right {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+}
+
+/* -------- */
+
+.work {}
+
+.main-work {
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+    margin-right: 20px;
+    border: 1px solid black;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.icon-work {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-left: 10px;
+}
+
+.icon-work img {
+    width: 50px;
+    height: 50px;
+}
+
+.icon-work h1 {}
+
+/*  ----- */
+
+.info1-work {
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.info1-work h3 {}
+
+.calender {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.calender img {
+    width: 30px;
+    height: 30px;
+    margin-top: 10px;
+}
+
+.calender p {
+    margin-top: 10px;
+    color: rgb(22, 176, 247);
+}
+
+.info-work {}
+
+.highlight {
+    background-color: rgb(22, 176, 247);
+    padding: 2px 5px;
+    border-radius: 4px;
+    color: white;
+}
+
+.info-work p {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/* work number 2 */
