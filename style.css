@@ -349,4 +349,117 @@
     margin-bottom: 20px;
 }
 
-/* work number 2 */
+
+/* mobile */
+
+@media (max-width: 768px) {
+
+    /* کل layout از دو ستون به یک ستون */
+    .main {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    /* ستون چپ */
+    .left {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .about-me {
+        padding-left: 0;
+        display: flex;
+        justify-content: center;
+    }
+
+    /* کارت پروفایل */
+    .picture {
+        width: 90%;
+        max-width: 320px;
+    }
+
+    .picture img {
+        width: 100%;
+        height: auto;
+    }
+
+    .picture h3 {
+        position: static;
+        margin-top: 10px;
+        text-align: center;
+        color: black;
+    }
+
+    /* ستون راست */
+    .right {
+        width: 100%;
+    }
+
+    .main-work {
+        margin-right: 0;
+    }
+
+    /* آیکن عنوان‌ها */
+    .icon-work {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .icon-work img {
+        width: 40px;
+        height: 40px;
+    }
+
+    /* فاصله‌ها بهتر بشه */
+    .info1-work {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    /* social media وسط چین */
+    .social {
+        justify-content: center;
+    }
+
+    /* progress bar ها */
+    .progress-bar,
+    .language-bar {
+        width: 100%;
+    }
+
+    /* آیکن‌های اطلاعات */
+    .info img {
+        width: 18px;
+        height: 18px;
+    }
+
+    .progress-bar,
+    .language-bar {
+        width: 100%;
+        margin-left: 0;
+        box-sizing: border-box;
+    }
+
+    .progress {
+        font-size: 12px;
+    }
+
+    .skill,
+    .lang {
+        padding-right: 10px;
+        margin-left: 10px;
+    }
+
+    .skill-part img,
+    .language img {
+        width: 50px;
+        height: 50px;
+    }
+
+    .social img {
+        width: 50px;
+        height: 50px;
+    }
+
+}
